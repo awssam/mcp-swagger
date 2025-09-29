@@ -1,0 +1,49 @@
+{
+  "name": "@awssam/mcp-swagger",
+  "version": "1.0.1",
+  "description": "MCP server for exposing Swagger/OpenAPI documentation to AI models like Claude",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "mcp-swagger": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "swagger",
+    "openapi",
+    "model-context-protocol",
+    "ai",
+    "claude",
+    "api-documentation",
+    "rest-api",
+    "api-tools"
+  ],
+  "author": "NextShow",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awssam/mcp-swagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awssam/mcp-swagger/issues"
+  },
+  "homepage": "https://github.com/awssam/mcp-swagger#readme",
+  "files": [
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
